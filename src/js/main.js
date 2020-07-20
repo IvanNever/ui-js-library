@@ -1,3 +1,3 @@
 import './lib/lib';
 
-console.log($('.more').eq(0).siblings());
+console.log($('.findme').fadeOut(5000));
