@@ -1,6 +1,3 @@
 import './lib/lib';
 
-$('button').click(function() {
-    $(this).toggleClass('active');
-});
-
+console.log($('.more').eq(0).siblings());
