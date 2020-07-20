@@ -41,11 +41,11 @@ body {
 .btn:active, .btn:focus {
   outline: none; }
 
-.btn-primary {
+.btn-primary, .btn-primary:link, .btn-primary:visited {
   background-color: #025fff;
   border-color: #025fff;
   color: #fff; }
-  .btn-primary:hover {
+  .btn-primary:hover, .btn-primary:link:hover, .btn-primary:visited:hover {
     background-color: #004cce; }
 
 .btn-success {
@@ -143,6 +143,60 @@ body {
     text-decoration: none; }
     .dropdown-item:hover {
       background-color: rgba(0, 0, 0, 0.05); }
+
+.card {
+  width: 35rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.1); }
+  .card-img {
+    width: 100%; }
+  .card a {
+    text-decoration: none; }
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+  display: none;
+  overflow: hidden; }
+  .modal-container {
+    max-width: 50rem;
+    margin: 4rem auto; }
+  .modal-content {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-height: 80vh;
+    overflow-y: auto; }
+    .modal-content .close {
+      position: absolute;
+      top: 1rem;
+      right: 1.4rem;
+      font-size: 3rem;
+      color: #000;
+      opacity: .5;
+      font-weight: 700;
+      border: none;
+      background-color: transparent;
+      cursor: pointer; }
+      .modal-content .close:active, .modal-content .close:focus {
+        outline: none; }
+  .modal-header, .modal-body {
+    padding: 1.5rem;
+    border-bottom: 1px solid #dee2e6; }
+  .modal-title {
+    font-weight: 500;
+    font-size: 20px; }
+  .modal-footer {
+    padding: 1.5rem; }
 
 .text-center {
   text-align: center; }

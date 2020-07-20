@@ -27,7 +27,9 @@
         outline: none;
     }
 
-    &-primary {
+    &-primary,
+    &-primary:link,
+    &-primary:visited {
         background-color: $primary;
         border-color: $primary;
         color: #fff;

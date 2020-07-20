@@ -8,3 +8,5 @@ $.prototype.dropdown = function() {
         });
     }
 };
+
+$('.dropdown-toggle').dropdown();
