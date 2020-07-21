@@ -198,6 +198,32 @@ body {
   .modal-footer {
     padding: 1.5rem; }
 
+.tab {
+  width: 100%; }
+  .tab-panel {
+    display: flex;
+    width: 100%;
+    min-height: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px 4px 0 0; }
+  .tab-item {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 1rem 2rem;
+    cursor: pointer; }
+    .tab-item:not(:last-child) {
+      border-right: 1px solid rgba(0, 0, 0, 0.2); }
+    .tab-item--active {
+      background-color: rgba(0, 0, 0, 0.1); }
+  .tab-content {
+    display: none;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-radius: 0 0 4px 4px; }
+    .tab-content--active {
+      display: block; }
+
 .text-center {
   text-align: center; }
 
