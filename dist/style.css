@@ -48,62 +48,62 @@ body {
   .btn-primary:hover, .btn-primary:link:hover, .btn-primary:visited:hover {
     background-color: #004cce; }
 
-.btn-success {
+.btn-success, .btn-success:link, .btn-success:visited {
   background-color: #2a9924;
   border-color: #2a9924;
   color: #fff; }
-  .btn-success:hover {
+  .btn-success:hover, .btn-success:link:hover, .btn-success:visited:hover {
     background-color: #1f701a; }
 
-.btn-danger {
+.btn-danger, .btn-danger:link, .btn-danger:visited {
   background-color: #ea2e41;
   border-color: #ea2e41;
   color: #fff; }
-  .btn-danger:hover {
+  .btn-danger:hover, .btn-danger:link:hover, .btn-danger:visited:hover {
     background-color: #d01528; }
 
-.btn-warning {
+.btn-warning, .btn-warning:link, .btn-warning:visited {
   background-color: #ffc907;
   border-color: #ffc907;
   color: #fff; }
-  .btn-warning:hover {
+  .btn-warning:hover, .btn-warning:link:hover, .btn-warning:visited:hover {
     background-color: #d3a500; }
 
-.btn-dark {
+.btn-dark, .btn-dark:link, .btn-dark:visited {
   background-color: #343a40;
   border-color: #343a40;
   color: #fff; }
-  .btn-dark:hover {
+  .btn-dark:hover, .btn-dark:link:hover, .btn-dark:visited:hover {
     background-color: #1d2124; }
 
-.btn-outline-primary {
+.btn-outline-primary, .btn-outline-primary:link, .btn-outline-primary:visited {
   border-color: #025fff;
   color: #025fff; }
-  .btn-outline-primary:hover {
+  .btn-outline-primary:hover, .btn-outline-primary:link:hover, .btn-outline-primary:visited:hover {
     background-color: #025fff; }
 
-.btn-outline-success {
+.btn-outline-success, .btn-outline-success:link, .btn-outline-success:visited {
   border-color: #2a9924;
   color: #2a9924; }
-  .btn-outline-success:hover {
+  .btn-outline-success:hover, .btn-outline-success:link:hover, .btn-outline-success:visited:hover {
     background-color: #2a9924; }
 
-.btn-outline-warning {
+.btn-outline-warning, .btn-outline-warning:link, .btn-outline-warning:visited {
   border-color: #ffc907;
   color: #ffc907; }
-  .btn-outline-warning:hover {
+  .btn-outline-warning:hover, .btn-outline-warning:link:hover, .btn-outline-warning:visited:hover {
     background-color: #ffc907; }
 
-.btn-outline-danger {
+.btn-outline-danger, .btn-outline-danger:link, .btn-outline-danger:visited {
   border-color: #ea2e41;
   color: #ea2e41; }
-  .btn-outline-danger:hover {
+  .btn-outline-danger:hover, .btn-outline-danger:link:hover, .btn-outline-danger:visited:hover {
     background-color: #ea2e41; }
 
-.btn-outline-dark {
+.btn-outline-dark, .btn-outline-dark:link, .btn-outline-dark:visited {
   border-color: #343a40;
   color: #343a40; }
-  .btn-outline-dark:hover {
+  .btn-outline-dark:hover, .btn-outline-dark:link:hover, .btn-outline-dark:visited:hover {
     background-color: #343a40; }
 
 .btn-block {

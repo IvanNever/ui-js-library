@@ -39,7 +39,9 @@
         }
     }
 
-    &-success {
+    &-success,
+    &-success:link,
+    &-success:visited {
         background-color: $success;
         border-color: $success;
         color: #fff;
@@ -49,7 +51,9 @@
         }
     }
 
-    &-danger {
+    &-danger,
+    &-danger:link,
+    &-danger:visited {
         background-color: $danger;
         border-color: $danger;
         color: #fff;
@@ -59,7 +63,9 @@
         }
     }
 
-    &-warning {
+    &-warning,
+    &-warning:link,
+    &-warning:visited {
         background-color: $warning;
         border-color: $warning;
         color: #fff;
@@ -69,7 +75,9 @@
         }
     }
 
-    &-dark {
+    &-dark,
+    &-dark:link,
+    &-dark:visited {
         background-color: $dark;
         border-color: $dark;
         color: #fff;
@@ -79,7 +87,9 @@
         }
     }
 
-    &-outline-primary {
+    &-outline-primary,
+    &-outline-primary:link,
+    &-outline-primary:visited {
         border-color: $primary;
         color: $primary;
 
@@ -88,7 +98,9 @@
         }
     }
 
-    &-outline-success {
+    &-outline-success,
+    &-outline-success:link,
+    &-outline-success:visited {
         border-color: $success;
         color: $success;
 
@@ -97,7 +109,9 @@
         }
     }
 
-    &-outline-warning {
+    &-outline-warning,
+    &-outline-warning:link,
+    &-outline-warning:visited {
         border-color: $warning;
         color: $warning;
 
@@ -106,7 +120,9 @@
         }
     }
 
-    &-outline-danger {
+    &-outline-danger,
+    &-outline-danger:link,
+    &-outline-danger:visited {
         border-color: $danger;
         color: $danger;
 
@@ -115,7 +131,9 @@
         }
     }
 
-    &-outline-dark {
+    &-outline-dark,
+    &-outline-dark:link,
+    &-outline-dark:visited {
         border-color: $dark;
         color: $dark;
 
